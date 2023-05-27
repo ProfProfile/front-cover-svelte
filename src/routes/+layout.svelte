@@ -1,8 +1,14 @@
+<script>
+
+	import {base} from '$app/paths';
+
+</script>
+
 <nav>
-    <a href="/">home</a>
-    <a href="/about">about</a>
-    <a href="/blog">blog</a>
-    <a href="/personal">personal</a>
+    <a href="{base}/">home</a>
+    <a href="{base}/about">about</a>
+    <a href="{base}/blog">blog</a>
+    <a href="{base}/personal">personal</a>
 </nav>
 
 <slot />
